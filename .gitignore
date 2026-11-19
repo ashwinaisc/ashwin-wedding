@@ -1,0 +1,5 @@
+.vercel-tools/
+.vercel/
+.openai/
+node_modules/
+.env*

@@ -1,0 +1,56 @@
+.ribbon-seal {
+  width: 132px;
+  height: 132px;
+  border: 1px solid #c8964c;
+  background: #fffaf1;
+  color: #a66d1f;
+  box-shadow: 0 10px 28px #54293648, inset 0 0 0 5px #c8964c18;
+}
+
+.ribbon-seal:hover {
+  background: #fffdf7;
+  transform: scale(1.04);
+}
+
+.ribbon-seal .wedding-monogram {
+  width: 108px;
+  height: 108px;
+  margin: auto;
+  object-fit: contain;
+}
+
+.ribbon-seal small {
+  position: absolute;
+  left: 50%;
+  bottom: 8px;
+  translate: -50% 0;
+  width: max-content;
+  padding: 0;
+  background: transparent;
+  color: #9a641d;
+  font-size: 7px;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 700px) {
+  .ribbon-seal { width: 116px; height: 116px; }
+  .ribbon-seal .wedding-monogram { width: 96px; height: 96px; }
+}
+
+.monogram .wedding-monogram,
+.closing-monogram .wedding-monogram {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: brightness(0) saturate(100%) invert(18%) sepia(30%) saturate(2451%) hue-rotate(301deg) brightness(91%) contrast(91%);
+}
+
+.ribbon-seal .wedding-monogram {
+  filter: brightness(0) saturate(100%) invert(88%) sepia(24%) saturate(525%) hue-rotate(333deg) brightness(104%) contrast(92%);
+}
+
+.closing-monogram {
+  padding: 13px;
+  border-radius: 50%;
+  background: #fffaf1;
+}
