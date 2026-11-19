@@ -45,10 +45,6 @@
   filter: brightness(0) saturate(100%) invert(18%) sepia(30%) saturate(2451%) hue-rotate(301deg) brightness(91%) contrast(91%);
 }
 
-.ribbon-seal .wedding-monogram {
-  filter: brightness(0) saturate(100%) invert(88%) sepia(24%) saturate(525%) hue-rotate(333deg) brightness(104%) contrast(92%);
-}
-
 .closing-monogram {
   padding: 13px;
   border-radius: 50%;
